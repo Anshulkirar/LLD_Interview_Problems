@@ -92,7 +92,7 @@ public class TomatoApp {
         for (MenuItem item : user.getCart().getItems()) {
             System.out.println(item.getCode() + " : " + item.getName() + " : ₹" + item.getPrice());
         }
-        System.out.println("------------------------------------");
+        System.out.println("----------------------------------");
         System.out.println("Grand total : ₹" + user.getCart().getTotalCost());
     }
 }
